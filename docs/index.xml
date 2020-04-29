@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SHFDB3</title>
+    <link>/shfdb3/</link>
+    <description>Recent content on SHFDB3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/shfdb3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Data sources</title>
+        <link>/shfdb3/construction/sources/</link>
+        <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/shfdb3/construction/sources/</guid>
+        <description>The Swedish Heart Failure Registry (SwedeHF) The Swedish Heart Failure Registry (SwedeHF) (Swedish: RiksSvikt) is managed by Uppsala Clinical Research Center (UCR).
+SwedeHF is a health quality and research registry that started in 2000 and became nationwide 2003. Coverage is ~18% of all first in- or out-patient HF encounters by cardiology or internal medicine in Sweden. Coverage is lower in primary care but few patients are seen exclusively in primary care and are therefore caught and registered in cardiology or internal medicine.</description>
+      </item>
+      
+      <item>
+        <title>Controls</title>
+        <link>/shfdb3/construction/controls/</link>
+        <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/shfdb3/construction/controls/</guid>
+        <description>For each post in SwedeHF a set of controls was chosen by Statistics Sweden in a ratio of 5:1. Since a person can have more than one registered post in SwedeHF a patient can have more than 5 controls in total, up to 5 for each posts.
+Eligible controls were persons without re-used and changed Swedish personal identity numbers (PINs) and free of HF, defined either in the National Patient registry (ICD-10: I110, I130, I132, I255, I420, I423, 1425-9, I43, I50, J81, K761, R57, ICD-9: 414W, 425E-H, 425W, 425X, 428) or SwedeHF, at the end of the year of the index date for the case and matched by gender, year of birth and county of residence at the index.</description>
+      </item>
+      
+      <item>
+        <title>Versions</title>
+        <link>/shfdb3/versions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/shfdb3/versions/</guid>
+        <description>SHFDB 3.0.0  This is the first version.  </description>
+      </item>
+      
+      <item>
+        <title>Data handling</title>
+        <link>/shfdb3/construction/dh/</link>
+        <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/shfdb3/construction/dh/</guid>
+        <description>Index date Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case.
+Inclusion/exclusion criteria Criteria N No of posts in SwedeHF 178038 Remove posts with duplicated index dates 177417 Remove posts with reused or changed PINs 177208 Remove posts &amp;lt; 18 years 177195 Remove posts with end of follow-up &amp;lt; index date 173894 Remove posts with with index date &amp;gt; 2018-12-31 156544 Unique patients 90383 New version of SwedeHF SwedeHF started in 2000.</description>
+      </item>
+      
+      <item>
+        <title>Metadata</title>
+        <link>/shfdb3/meta/</link>
+        <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/shfdb3/meta/</guid>
+        <description>The dataset comes in four versions:
+ rsdata3xx.RData with the categorical variables coded as numeric rsdata3xx.RData with the categorical variables as factors rsdata3xx.txt with the categorical variables coded as numeric rsdata3xx.txt with the categorical variables as strings  If you prefer the dataset containing numeric variables the corresponding labels to the numeric values can be found here: https://github.com/KIHeartFailure/shfdb3dh/blob/master/metadata/meta_factorlevels.xlsx
+The name of the dataset will be rsdata3xx, depending on version number (see Versions).</description>
+      </item>
+      
+      <item>
+        <title>DescStat</title>
+        <link>/shfdb3/deskstat/</link>
+        <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/shfdb3/deskstat/</guid>
+        <description>Descriptive Statistics for variables in SHFDB3 Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
+PostsPatients (last post)Variables Case % missing Control % missing Case % missing Control % missing n 156544 771049 90383 771049 ncontrols 5 [5, 5] 0.</description>
+      </item>
+      
+      <item>
+        <title>Contact</title>
+        <link>/shfdb3/contact/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/shfdb3/contact/</guid>
+        <description>Questions regarding the data or R code:  Lina Benson, statistician, lina.benson@ki.se  Questions regarding research collaborations:  Lars H Lund, professor, lars.lund@alumni.duke.edu Gianluigi Savarese, senior researcher, gianluigi.savarese@ki.se.  </description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,0 +1,84 @@
+---
+title: 'Data handling'
+date: "2020-04-27"
+draft: false
+weight: 30
+output:
+  html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, include = TRUE, comment = "",
+  warning = FALSE, message = FALSE
+)
+options(knitr.kable.NA = "")
+```
+
+```{r loadlibsdata}
+library(tableone)
+library(dplyr)
+library(tidyr)
+library(knitr)
+library(kableExtra)
+
+load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/datahandling/data/rsdata_for_webb.RData")
+```             
+
+### Index date
+  
+Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case. 
+
+### Inclusion/exclusion criteria
+
+```{r flow}
+flow <- flow %>% as_tibble
+colnames(flow) <- c("Criteria", "N")
+kable(flow)
+```
+
+### New version of SwedeHF
+
+SwedeHF started in 2000. In April 2017 a new version of the register was launched in which some variables were redefined, renamed, removed or added. To analyze longitudinal data from the register the variables from the different versions need to be merged. The exact merging can be seen in the source code https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/02-merge_swedehf.R. 
+
+### Follow-up
+
+The follow-up period is defined as time from index date to emigration, death or end of follow-up, 2018-12-31, whichever came first. 
+
+For the controls the follow-up period is defined as time from the matched cases index date to heart failure diagnosis (either in NPR or SwedeHF), emigration, death or end of follow-up, 2018-12-31, whichever came first. 
+
+### Socioeconomic variables from Statistics Sweden
+
+The exact categorizations can be found https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/06-countryofbirth_scb.R and https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/07-lisa_scb.R  
+
+### Comorbidities and outcomes from NPR
+
+For all comorbidities and hospitalizations date of admission/visit (INDATUM) is used to calculate if is a comorbidity or outcome. Adjoining hospitalizations, where the discharge date of the former hospitalization is the same as the admission date of the latter, are merged together into one hospitalization in order to take into account possible transferals between wards/hospitals.
+
+```{r comhospdeath}
+comoutmeta <- rbind(outcommeta, deathmeta)
+comoutmeta <- comoutmeta %>%
+  mutate(Code = gsub(",", ", ", Code),
+         Position = gsub("DIA_all", "All DIA", Position),
+         Position = gsub("OP_all", "All OP", Position),
+         Position = gsub("ekod_all", "All Ekod", Position),
+         Position = gsub("sos_deathcause", "ULORSAK", Position),
+         Period = gsub("0--1826.25", "-5yrs-0", Period), 
+         Period = gsub("0--1095.75", "-3yrs-0", Period), 
+         )
+
+kable(comoutmeta)
+```
+
+#### Charlson comorbidity index (https://pubmed.ncbi.nlm.nih.gov/3558716/)
+
+The ICD-10 codes used are not necessarily the same as in the other comorbidities and outcomes but directly from https://pubmed.ncbi.nlm.nih.gov/16224307/. Adaptations were made for the Swedish ICD-9 version. 
+
+```{r cci}
+ccimeta <- ccimeta %>%
+  mutate(Code = gsub(",", ", ", Code),
+         Position = gsub("DIA_all", "All DIA", Position),
+         Period = gsub("0--3652.5", "-10yrs-0", Period))
+kable(ccimeta)
+```
+

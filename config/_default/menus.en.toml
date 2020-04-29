@@ -1,0 +1,29 @@
+[[main]]
+  identifier = "construction"
+  name = "Construction"
+  url = "construction"
+  weight = 1
+
+[[main]]
+  identifier = "versions"
+  name = "Versions"
+  url = "versions"
+  weight = 2
+
+[[main]]
+  identifier = "meta"
+  name = "Metadata"
+  url = "meta"
+  weight = 3
+
+[[main]]
+  identifier = "deskstat"
+  name = "DescStat"
+  url = "deskstat"
+  weight = 4
+  
+[[main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "contact"
+  weight = 5

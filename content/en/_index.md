@@ -1,26 +1,42 @@
 ---
 title: SHFDB3
-date: "2020-04-22"
+date: 2020-04-29
 draft: false
-updatesBanner: SwedeHF database 3 (SHFDB3) - a combination of the Swedish Heart Failure Registry and other national Swedish registers. The data consists of 156,544 posts (90,383 unique patients) and 771,049 age, sex and country matched controls. First post in 2000-05-11 and last post in 2018-12-31 with complete end follow-up until 2018-12-31. 
-landingImage: favicon/logo.jpg
-landingTitle: SwedeHF database 3
-landingText: Documentation on the construction of SHFDB3
-titleColor:
-textColor:
-spaceBetweenTitleText: 25
-buttons: 
-  - link: contact
-    text: Contact
-    color: primary
-  - link: https://github.com/KIHeartFailure/shfdb3dh
-    text: RCODE
-    color: default
-# shields:
-#  - link: https://github.com/zzossig/hugo-theme-zdoc
-#     image: https://img.shields.io/github/forks/zzossig/hugo-theme-zdoc?label=Fork&style=social
-#     alt: Hugo ZDoc theme github forks
-#  - link: https://github.com/zzossig/hugo-theme-zdoc
-#     image: https://img.shields.io/github/stars/zzossig/hugo-theme-zdoc?label=Star&style=social
-#     alt: Hugo ZDoc theme github stars
+landing:
+  image: favicon/logo.png
+  title:
+    - SwedeHF database 3 (SHFDB3)
+  text:
+    - A combination of the Swedish Heart Failure Registry and other national Swedish registers. The data consists of 156,544 posts, 90,383 unique patients, and 771,049 age, sex and country matched controls. First post in 2000-05-11 and last post in 2018-12-31 with complete end follow-up until 2018-12-31.
+  titleColor:
+  textColor:
+  spaceBetweenTitleText: 25
+  buttons:
+    - link: https://github.com/KIHeartFailure/shfdb3dh/blob/master/metadata/meta_variables.xlsx
+      text: VARIABLE DESCRIPTION
+      color: default
+footer:
+  sections:
+    - title: More information
+      links: 
+        - title: Lars H Lund Research group
+          link: https://ki.se/en/meds/heart-failure-with-reduced-and-preserved-ejection-fraction-clinical-and-translational-aspects
+        - title: SwedeHF
+          link: https://www.ucr.uu.se/rikssvikt-en/
+    - title: GitHub
+      links: 
+        - title: Data handling
+          link: https://github.com/KIHeartFailure/shfdb3dh
+        - title: Webb
+          link: https://github.com/KIHeartFailure/shfdb3
+sections:
+  - bgcolor: "#870052"
+    type: card
+    description: "This site aims to document the data handling performed in order to construct the SwedeHF database 3. All source code is available on GitHub."
+    header: 
+      title: Data handling
+      hlcolor: "#808080"
+      color: "#fff"
+      fontSize: 32
+      width: 340
 ---

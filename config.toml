@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "Contact: lina.benson@ki.se."
 timeout = 10000
 enableEmoji = true
 paginate = 13

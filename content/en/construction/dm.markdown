@@ -1,5 +1,5 @@
 ---
-title: 'Data handling'
+title: 'Data management'
 date: "2020-04-27"
 draft: false
 weight: 30

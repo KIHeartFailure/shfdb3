@@ -5,4 +5,4 @@ title: Construction
 weight: 10
 ---
 
-The R source code for all data handling performed is found https://github.com/KIHeartFailure/swedehfdatabase3dh.
+The R source code for all data management performed is found https://github.com/KIHeartFailure/swedehfdatabase3dh.

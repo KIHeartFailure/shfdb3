@@ -35,11 +35,11 @@ Eligible controls were persons without re-used and changed Swedish personal iden
       </item>
       
       <item>
-        <title>Data handling</title>
-        <link>/shfdb3/construction/dh/</link>
+        <title>Data management</title>
+        <link>/shfdb3/construction/dm/</link>
         <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>/shfdb3/construction/dh/</guid>
+        <guid>/shfdb3/construction/dm/</guid>
         <description>Index date Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case.
 Inclusion/exclusion criteria Criteria N No of posts in SwedeHF 178038 Remove posts with duplicated index dates 177417 Remove posts with reused or changed PINs 177208 Remove posts &amp;lt; 18 years 177195 Remove posts with end of follow-up &amp;lt; index date 173894 Remove posts with with index date &amp;gt; 2018-12-31 156544 Unique patients 90383 New version of SwedeHF SwedeHF started in 2000.</description>
       </item>

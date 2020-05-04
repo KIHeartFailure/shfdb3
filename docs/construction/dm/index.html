@@ -1681,12 +1681,12 @@ if (!doNotTrack) {
 </tbody>
 </table>
 <h3 id="new-version-of-swedehf">New version of SwedeHF</h3>
-<p>SwedeHF started in 2000. In April 2017 a new version of the register was launched in which some variables were redefined, renamed, removed or added. To analyze longitudinal data from the register the variables from the different versions need to be merged. The exact merging can be seen in the source code <a href="https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/02-merge_swedehf.R">https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/02-merge_swedehf.R</a>.</p>
+<p>SwedeHF started in 2000. In April 2017 a new version of the register was launched in which some variables were redefined, renamed, removed or added. To analyze longitudinal data from the register the variables from the different versions need to be merged. The exact merging can be seen in the source code <a href="https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/02-merge_swedehf.R">https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/02-merge_swedehf.R</a>.</p>
 <h3 id="follow-up">Follow-up</h3>
 <p>The follow-up period is defined as time from index date to emigration, death or end of follow-up, 2018-12-31, whichever came first.</p>
 <p>For the controls the follow-up period is defined as time from the matched cases index date to heart failure diagnosis (either in NPR or SwedeHF), emigration, death or end of follow-up, 2018-12-31, whichever came first.</p>
 <h3 id="socioeconomic-variables-from-statistics-sweden">Socioeconomic variables from Statistics Sweden</h3>
-<p>The exact categorizations can be found <a href="https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/06-countryofbirth_scb.R">https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/06-countryofbirth_scb.R</a> and <a href="https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/07-lisa_scb.R">https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/07-lisa_scb.R</a></p>
+<p>The exact categorizations can be found <a href="https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/06-countryofbirth_scb.R">https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/06-countryofbirth_scb.R</a> and <a href="https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/07-lisa_scb.R">https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/07-lisa_scb.R</a></p>
 <h3 id="comorbidities-and-outcomes-from-npr">Comorbidities and outcomes from NPR</h3>
 <p>For all comorbidities and hospitalizations date of admission/visit (INDATUM) is used to calculate if is a comorbidity or outcome. Adjoining hospitalizations, where the discharge date of the former hospitalization is the same as the admission date of the latter, are merged together into one hospitalization in order to take into account possible transferals between wards/hospitals.</p>
 <table>

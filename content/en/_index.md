@@ -12,7 +12,7 @@ landing:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
-    - link: https://github.com/KIHeartFailure/shfdb3dh/blob/master/metadata/meta_variables.xlsx
+    - link: https://github.com/KIHeartFailure/shfdb3dm/blob/master/metadata/meta_variables.xlsx
       text: VARIABLE DESCRIPTION
       color: default
 footer:
@@ -26,8 +26,8 @@ footer:
     - title: GitHub
       links: 
         - title: Data management
-          link: https://github.com/KIHeartFailure/shfdb3dh
-        - title: Homepage
+          link: https://github.com/KIHeartFailure/shfdb3dm
+        - title: Website
           link: https://github.com/KIHeartFailure/shfdb3
 sections:
   - bgcolor: "#870052"

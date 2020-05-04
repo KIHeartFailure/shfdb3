@@ -58,7 +58,7 @@ Index date is defined as the registered date of discharge for in-patients and da
 
 ### New version of SwedeHF
 
-SwedeHF started in 2000. In April 2017 a new version of the register was launched in which some variables were redefined, renamed, removed or added. To analyze longitudinal data from the register the variables from the different versions need to be merged. The exact merging can be seen in the source code https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/02-merge_swedehf.R. 
+SwedeHF started in 2000. In April 2017 a new version of the register was launched in which some variables were redefined, renamed, removed or added. To analyze longitudinal data from the register the variables from the different versions need to be merged. The exact merging can be seen in the source code https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/02-merge_swedehf.R. 
 
 ### Follow-up
 
@@ -68,7 +68,7 @@ For the controls the follow-up period is defined as time from the matched cases 
 
 ### Socioeconomic variables from Statistics Sweden
 
-The exact categorizations can be found https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/06-countryofbirth_scb.R and https://github.com/KIHeartFailure/shfdb3dh/blob/master/munge/07-lisa_scb.R  
+The exact categorizations can be found https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/06-countryofbirth_scb.R and https://github.com/KIHeartFailure/shfdb3dm/blob/master/munge/07-lisa_scb.R  
 
 ### Comorbidities and outcomes from NPR
 

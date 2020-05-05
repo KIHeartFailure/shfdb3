@@ -9,7 +9,7 @@ weight: 10
 
 The Swedish Heart Failure Registry (SwedeHF) (Swedish: RiksSvikt) is managed by Uppsala Clinical Research Center (UCR). 
 
-SwedeHF is a health quality and research registry that started in 2000 and became nationwide 2003. Coverage is ~18% of all first in- or out-patient HF encounters by cardiology or internal medicine in Sweden. Coverage is lower in primary care but few patients are seen exclusively in primary care and are therefore caught and registered in cardiology or internal medicine. 
+SwedeHF is a health quality and research registry that started in 2000 and became nationwide 2003. Coverage is ~18% of all incident in- or out-patient HF encounters by cardiology or internal medicine in Sweden, but higher for prevelant cases. Coverage is lower in primary care but few patients are seen exclusively in primary care and are therefore caught and registered in cardiology or internal medicine. 
 
 Up until April 2017 the only inclusion criterion was clinician-judged Heart Failure (HF). From April 2017 the inclusion criteria are ICD-10: I50.0, I50.1, I50.9, I42.0, I42.6, I42.7, I25.5, I11.0, I13.0, I13.2. 
 
@@ -45,7 +45,7 @@ No information from the Swedish Cancer Register is included in the base version 
 
 The National Patient Register (NPR) (Swedish: Patientregistret) is managed by The National Board of Health and Welfare (Socialstyrelsen). 
 
-From 1987 NPR includes all in-patient care in Sweden. Since 2001 the register also covers outpatient visits including day surgery and psychiatric care from both private and public caregivers. Each record contains medical information on surgical procedures, hospital department and discharge diagnoses coded according to International Classification of Diseases (ICD-9 for years 1987-1997 or ICD-10 for years 1997-). The validity of HF diagnosis in cardiology and non-cardiology clinics in Sweden is 91% and 86%, respectively (https://pubmed.ncbi.nlm.nih.gov/15916919). For more information, see https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/. 
+From 1987 the NPR includes all in-patient care in Sweden. Since 1997 it also covers out-patient surgical procedures and from 2001 also out-patient visits in speciality (but not primary) care. Each record contains medical information on surgical procedures, hospital department and discharge diagnoses coded according to International Classification of Diseases (ICD-9 for years 1987-1996 and ICD-10 for years 1997-, except for Skåne were ICD-10 was introduced 1998). The validity of HF diagnosis in cardiology and non-cardiology clinics in Sweden is 91% and 86%, respectively (https://pubmed.ncbi.nlm.nih.gov/15916919). For more information, see https://www.socialstyrelsen.se/en/statistics-and-data/registers/register-information/the-national-patient-register/. 
 
 From the NPR individual comorbidities (variables beginning with sos_com_) and hospitalization outcomes (variables beginning with sos_out_hosp) were calculated as well as the Charlson Comorbidity Index. Additional comorbidities and outcomes can be made available upon request. 
 

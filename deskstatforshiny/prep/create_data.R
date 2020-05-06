@@ -1,7 +1,7 @@
 library(dplyr)
 library(tidyr)
 
-load("../datahandling/data/rsdata_for_webb.RData")
+load("../dm/data/rsdata_for_webb.RData")
 
 # create datasets for shinyapp
 varsfortab <- names(rsdata)[stringr::str_starts(names(rsdata), "LopNr|LopNrcase|casecontrol|sos_deathcause|scb_region", negate = TRUE)]

@@ -78,6 +78,8 @@ Limitations: Unmarried persons cohabiting without children are classified as Liv
 
 For all comorbidities and hospitalizations date of admission/visit (INDATUM) is used to calculate if is a comorbidity or outcome. Adjoining hospitalizations, where the discharge date of the former hospitalization is the same as the admission date of the latter, are merged together into one hospitalization in order to take into account possible transferals between wards/hospitals.
 
+Limitation: For the comorbidities MI, IHD, Stroke, CABG and PCI there is no time restriction applied. There is no data prior to 1987 (for PCI, CABG only from 1997) and the earlier registrations will therefore not have had the possibility to accumulate comorbidities to the same extent as the latter. For more details see [Sources](www.shfdb3/sources/)).  
+
 Limitation: Out-patient visits in speciality (but not primary) care are covered from 2001. Therefore, for the earlier visits, these are (partially) not included in the comorbidities. 
 
 <table>
@@ -107,17 +109,17 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_ihd </td>
-   <td style="text-align:left;"> ICD:I20-5 </td>
+   <td style="text-align:left;"> ICD:410-4, I20-5 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -5yrs-0 </td>
+   <td style="text-align:left;"> 0- </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_mi </td>
-   <td style="text-align:left;"> ICD:I21, I22, I252 </td>
+   <td style="text-align:left;"> ICD:410, 412, I21, I22, I252 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -5yrs-0 </td>
+   <td style="text-align:left;"> 0- </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_angina </td>
@@ -131,14 +133,14 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
    <td style="text-align:left;"> OP:FNG </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All OP </td>
-   <td style="text-align:left;"> -5yrs-0 </td>
+   <td style="text-align:left;"> 0- </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cabg </td>
    <td style="text-align:left;"> ICD:Z951, Z955 OP:FNA, FNB, FNC, FND, FNE, FNF, FNH </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA All OP </td>
-   <td style="text-align:left;"> -5yrs-0 </td>
+   <td style="text-align:left;"> 0- </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_dcm </td>
@@ -163,10 +165,10 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_stroke </td>
-   <td style="text-align:left;"> ICD:I60-4, I690-4 </td>
+   <td style="text-align:left;"> ICD:430-4, 438, I60-4, I690-4 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -5yrs-0 </td>
+   <td style="text-align:left;"> 0- </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_tia </td>
@@ -177,10 +179,10 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_stroketia </td>
-   <td style="text-align:left;"> ICD:I60-4, I690-4, G45 </td>
+   <td style="text-align:left;"> ICD:430-4, 438, I60-4, I690-4, G45 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -5yrs-0 </td>
+   <td style="text-align:left;"> 0- </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_valvular </td>
@@ -317,7 +319,7 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_hospstroketia </td>
-   <td style="text-align:left;"> ICD:I60-4, I690-4, G45 </td>
+   <td style="text-align:left;"> ICD:I60-4, G45 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> HDIA </td>
    <td style="text-align:left;"> 1- </td>

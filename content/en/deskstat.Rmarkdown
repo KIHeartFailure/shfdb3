@@ -25,7 +25,7 @@ library(kableExtra)
 load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/dm/data/rsdata_for_webb.RData")
 ```             
 
-### Descriptive Statistics for variables in SHFDB3 
+### Descriptive Statistics for variables in SHFDB3
 
 Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
 
@@ -85,7 +85,7 @@ tabuco <- data.frame(vars = rownames(tabuco), tabuco)
 
 tabboth <- full_join(tabca, tabco, by = "vars")
 tabboth2 <- full_join(tabuca, tabuco, by = "vars")
-taball <- full_join(tabboth, tabboth2, by = "vars")
+taball <- cbind(tabboth, tabboth2 %>% select(-vars)) 
 colnames(taball) <- c("Variables", rep(c("Case", "% missing", "Control", "% missing"), 2))
 
 myHeader <- c(" " = 1, "Posts" = 4, "Patients (last post)" = 4)

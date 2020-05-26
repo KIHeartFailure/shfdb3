@@ -5,12 +5,16 @@ title: Metadata
 weight: 30
 ---
 
-The dataset comes in four versions:
+The dataset comes in 6 versions:
 
 - rsdata3xx.RData with the categorical variables coded as numeric
 - rsdata3xx.RData with the categorical variables as factors
-- rsdata3xx.txt with the categorical variables coded as numeric
-- rsdata3xx.txt with the categorical variables as strings
+- rsdata3xx.txt (tab-separated) with the categorical variables coded as numeric
+- rsdata3xx.txt (tab-separated) with the categorical variables as strings
+- rsdata3xx.dta (Stata v 13) with the categorical variables coded as numeric
+- rsdata3xx.dta (Stata v 13) with the categorical variables as strings
+
+Note that the .dta versions are experimental so check number of observations/patients and descriptive statistics carefully against website. 
 
 If you prefer the dataset containing numeric variables the corresponding labels to the numeric values can be found here: https://github.com/KIHeartFailure/shfdb3dm/blob/master/metadata/meta_factorlevels.xlsx
 

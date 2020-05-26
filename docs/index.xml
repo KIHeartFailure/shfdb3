@@ -40,7 +40,7 @@ Eligible controls were persons without re-used and changed Swedish personal iden
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/shfdb3/versions/</guid>
-        <description>SHFDB 3.0.0  This is the first version.  SHFDB 3.0.1  Added shf_arnidose.  SHFDB 3.0.2  Imputed SwedeHF comorbidities and duration of hf for shf_type = &amp;ldquo;Follow-up&amp;rdquo; and shf_source = &amp;ldquo;New SHF&amp;rdquo; with previous values.  </description>
+        <description>SHFDB 3.0.0  This is the first version.  SHFDB 3.0.1  Added shf_arnidose.  SHFDB 3.0.2  Imputed SwedeHF comorbidities and duration of hf for shf_type = &amp;ldquo;Follow-up&amp;rdquo; and shf_source = &amp;ldquo;New SHF&amp;rdquo; with previous values.  SHFDB 3.1.0  Added diabetestype I, II (from 2010) Added variable shf_eforg Changed so scb_dispincome_cat is calculated from unique individuals within the year Changed definition of sos_out_hospstroketia (removed I69) Changed definition of sos_com_stroke, sos_com_stroketia, sos_com_mi, sos_com_ihd (removed time limit and added ICD-9 codes), sos_com_pci, sos_com_cabg (removed time limit)  </description>
       </item>
       
       <item>
@@ -59,9 +59,8 @@ Inclusion/exclusion criteria Criteria N No of posts in SwedeHF 178038 
         <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
         
         <guid>/shfdb3/meta/</guid>
-        <description>The dataset comes in four versions:
- rsdata3xx.RData with the categorical variables coded as numeric rsdata3xx.RData with the categorical variables as factors rsdata3xx.txt with the categorical variables coded as numeric rsdata3xx.txt with the categorical variables as strings  If you prefer the dataset containing numeric variables the corresponding labels to the numeric values can be found here: https://github.com/KIHeartFailure/shfdb3dm/blob/master/metadata/meta_factorlevels.xlsx
-The name of the dataset will be rsdata3xx, depending on version number (see Versions).</description>
+        <description>The dataset comes in 6 versions:
+ rsdata3xx.RData with the categorical variables coded as numeric rsdata3xx.RData with the categorical variables as factors rsdata3xx.txt (tab-separated) with the categorical variables coded as numeric rsdata3xx.txt (tab-separated) with the categorical variables as strings rsdata3xx.dta (Stata v 13) with the categorical variables coded as numeric rsdata3xx.dta (Stata v 13) with the categorical variables as strings  Note that the .dta versions are experimental so check number of observations/patients and descriptive statistics carefully against website.</description>
       </item>
       
       <item>

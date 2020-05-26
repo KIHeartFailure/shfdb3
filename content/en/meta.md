@@ -11,8 +11,8 @@ The dataset comes in 6 versions:
 - rsdata3xx.RData with the categorical variables as factors
 - rsdata3xx.txt (tab-separated) with the categorical variables coded as numeric
 - rsdata3xx.txt (tab-separated) with the categorical variables as strings
-- rsdata3xx.dta (Stata v 13) with the categorical variables coded as numeric
-- rsdata3xx.dta (Stata v 13) with the categorical variables as strings
+- rsdata3xx.dta (Stata v 14) with the categorical variables coded as numeric
+- rsdata3xx.dta (Stata v 14) with the categorical variables as strings
 
 Note that the .dta versions are experimental so check number of observations/patients and descriptive statistics carefully against website. 
 

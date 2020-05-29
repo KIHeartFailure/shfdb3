@@ -470,14 +470,14 @@ The ICD-10 codes used are not necessarily the same as in the other comorbidities
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_chf </td>
-   <td style="text-align:left;"> ICD:425E-H, 425W, 425X, 428, 1099, 1110, 1130, 1132, I255, I420, I425-9, I43, I50, P290 </td>
+   <td style="text-align:left;"> ICD:425E-H, 425W, 425X, 428, I099, I110, I130, I132, I255, I420, I425-9, I43, I50, P290 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_pvd </td>
-   <td style="text-align:left;"> ICD:093A, 437D, 440, 441, 443B, 443W, 443X, 447B, 557B, 557X, V43E, I70, I71, I731, I738, I739, 1771, 1790, I1792, K551, K558, K559, Z958, Z959 </td>
+   <td style="text-align:left;"> ICD:093A, 437D, 440, 441, 443B, 443W, 443X, 447B, 557B, 557X, V43E, I70, I71, I731, I738, I739, I771, I790, I1792, K551, K558, K559, Z958, Z959 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
@@ -498,7 +498,7 @@ The ICD-10 codes used are not necessarily the same as in the other comorbidities
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_copd </td>
-   <td style="text-align:left;"> ICD:416W, 416X, 490-6, 500-5, 506E, 508B, 508W, 1278, 1279, J40-7, J60-7, J684, J701, J703 </td>
+   <td style="text-align:left;"> ICD:416W, 416X, 490-6, 500-5, 506E, 508B, 508W, I278, I279, J40-7, J60-7, J684, J701, J703 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>

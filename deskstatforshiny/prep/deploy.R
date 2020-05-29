@@ -1,0 +1,1 @@
+rsconnect::deployApp("C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/webb/deskstatforshiny")

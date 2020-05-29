@@ -22,3 +22,8 @@ weight: 20
 - Changed so scb_dispincome_cat is calculated from unique individuals within the year
 - Changed definition of sos_out_hospstroketia (removed I69)
 - Changed definition of sos_com_stroke, sos_com_stroketia, sos_com_mi, sos_com_ihd (removed time limit and added ICD-9 codes), sos_com_pci, sos_com_cabg (removed time limit)
+
+### SHFDB 3.1.1
+
+- Corrected charlson comorbidity index (sos_com_charlsonci)
+- Changed name of shf_ras to shf_rasarni

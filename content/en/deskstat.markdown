@@ -11,7 +11,7 @@ output:
 
 
 
-### Descriptive Statistics for variables in SHFDB3
+### Descriptive Statistics for variables in SHFDB3 
 
 Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
 
@@ -1202,7 +1202,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> shf_ras = Yes </td>
+   <td style="text-align:left;"> shf_rasarni = Yes </td>
    <td style="text-align:left;"> 129457 (84) </td>
    <td style="text-align:left;"> 1.2 </td>
    <td style="text-align:left;">  </td>
@@ -2325,11 +2325,11 @@ Note that posts/patients have different follow-up times, that means that outcome
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_charlsonci </td>
-   <td style="text-align:left;"> 3 [1, 4] </td>
+   <td style="text-align:left;"> 3 [2, 4] </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 0 [0, 1] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 3 [1, 4] </td>
+   <td style="text-align:left;"> 3 [2, 4] </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 0 [0, 1] </td>
    <td style="text-align:left;"> 0.0 </td>

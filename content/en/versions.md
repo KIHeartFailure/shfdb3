@@ -27,3 +27,8 @@ weight: 20
 
 - Corrected charlson comorbidity index (sos_com_charlsonci)
 - Changed name of shf_ras to shf_rasarni
+
+### SHFDB 3.1.2
+
+- Removed ICD-10 codes from sos_out_hosprevasc (Z951, Z955), sos_com_valvular (I091, I098) and sos_com_liver (Z944)
+- Removed sos_com_ra

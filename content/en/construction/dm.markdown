@@ -12,8 +12,8 @@ output:
 
 
 ### Index date
-  
-Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case. 
+
+Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case.
 
 ### Inclusion/exclusion criteria
 
@@ -186,7 +186,7 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_valvular </td>
-   <td style="text-align:left;"> ICD:I05-8, I091, I098, I34-9, Q22, Q230-3, Z952-4 </td>
+   <td style="text-align:left;"> ICD:I05-8, I34-9, Q22, Q230-3, Z952-4 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -5yrs-0 </td>
@@ -228,7 +228,7 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_liver </td>
-   <td style="text-align:left;"> ICD:B18, I85, I864, I982, K70, K710, K711, K713-7, K72-4, K760, K762-9, Z944 </td>
+   <td style="text-align:left;"> ICD:B18, I85, I864, I982, K70, K710, K711, K713-7, K72-4, K760, K762-9 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -5yrs-0 </td>
@@ -273,13 +273,6 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
    <td style="text-align:left;"> ICD:E244, E52, F10, G312, G621, G721, I426, K292, K70, K860, O354, P043, Q860, T51, Z502, Z714  Ekod:Y90, Y91 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA  All Ekod </td>
-   <td style="text-align:left;"> -5yrs-0 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sos_com_ra </td>
-   <td style="text-align:left;"> ICD:M05, M06 </td>
-   <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -5yrs-0 </td>
   </tr>
   <tr>
@@ -417,9 +410,9 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_hosprevasc </td>
-   <td style="text-align:left;"> ICD:Z951, Z955 OP:FNG, FNA, FNB, FNC, FND, FNE, FNF, FNH </td>
+   <td style="text-align:left;"> OP:FNG, FNA, FNB, FNC, FND, FNE, FNF, FNH </td>
    <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> HDIA All OP </td>
+   <td style="text-align:left;"> All OP </td>
    <td style="text-align:left;"> 1- </td>
   </tr>
   <tr>

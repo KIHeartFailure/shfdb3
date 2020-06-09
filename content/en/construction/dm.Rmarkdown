@@ -72,7 +72,9 @@ comoutmeta <- comoutmeta %>%
          Position = gsub("ekod_all", "All Ekod", Position),
          Position = gsub("sos_deathcause", "ULORSAK", Position),
          Period = gsub("0--1826.25", "-5yrs-0", Period), 
-         Period = gsub("0--1095.75", "-3yrs-0", Period), 
+         Period = gsub("0--1095.75", "-3yrs-0", Period),
+         Period = gsub("0-", "-0", Period),
+         Register = ifelse(stringr::str_detect(Variable, "sos_out_hosp"), "NPR (in)", Register)
          )
 
 kable(comoutmeta)

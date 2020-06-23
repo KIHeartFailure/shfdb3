@@ -60,7 +60,7 @@ Inclusion/exclusion criteria Criteria N No of posts in SwedeHF 178038 
         
         <guid>/shfdb3/meta/</guid>
         <description>The dataset comes in 6 versions:
- rsdata3xx.RData with the categorical variables coded as numeric rsdata3xx.RData with the categorical variables as factors rsdata3xx.txt (tab-separated) with the categorical variables coded as numeric rsdata3xx.txt (tab-separated) with the categorical variables as strings rsdata3xx.dta (Stata v 14) with the categorical variables coded as numeric rsdata3xx.dta (Stata v 14) with the categorical variables as strings  Note that the .dta versions are experimental so check number of observations/patients and descriptive statistics carefully against website.</description>
+ rsdatanum3xx.RData with the categorical variables coded as numeric rsdata3xx.RData with the categorical variables as factors rsdatanum3xx.txt (tab-separated) with the categorical variables coded as numeric rsdata3xx.txt (tab-separated) with the categorical variables as strings rsdatanum3xx.dta (Stata v 14) with the categorical variables coded as numeric rsdata3xx.dta (Stata v 14) with the categorical variables as strings  Note that the .dta versions are experimental so check number of observations/patients and descriptive statistics carefully against website.</description>
       </item>
       
       <item>

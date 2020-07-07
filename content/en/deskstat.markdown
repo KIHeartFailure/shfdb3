@@ -2776,13 +2776,13 @@ Note that posts/patients have different follow-up times, that means that outcome
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_hospdeathscd = Yes </td>
-   <td style="text-align:left;"> 91 ( 0) </td>
+   <td style="text-align:left;"> 96 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 97 ( 0) </td>
+   <td style="text-align:left;"> 187 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 48 ( 0) </td>
+   <td style="text-align:left;"> 52 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 97 ( 0) </td>
+   <td style="text-align:left;"> 187 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
 </tbody>

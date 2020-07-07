@@ -32,3 +32,7 @@ weight: 20
 
 - Removed ICD-10 codes from sos_out_hosprevasc (Z951, Z955), sos_com_valvular (I091, I098) and sos_com_liver (Z944)
 - Removed sos_com_ra
+
+### SHFDB 3.1.3
+
+- Corrected ICD-10 code for sudden cardiac death, effects variable sos_out_hospdeathscd. 

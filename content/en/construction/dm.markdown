@@ -42,7 +42,7 @@ Index date is defined as the registered date of discharge for in-patients and da
    <td style="text-align:left;"> 177195 </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Remove posts with end of follow-up &lt; index date </td>
+   <td style="text-align:left;"> Remove posts with end of follow-up &lt;= index date (died in hospital) </td>
    <td style="text-align:left;"> 173894 </td>
   </tr>
   <tr>

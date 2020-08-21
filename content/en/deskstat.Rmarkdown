@@ -22,7 +22,7 @@ library(tidyr)
 library(knitr)
 library(kableExtra)
 
-load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/dm/data/rsdata_for_webb.RData")
+load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/dm/data/rsdata_for_webb.RData") 
 ```             
 
 ### Descriptive Statistics for variables in SHFDB3

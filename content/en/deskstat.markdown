@@ -13,14 +13,14 @@ output:
 
 ### Descriptive Statistics for variables in SHFDB3
 
-Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
+Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table. 
 
 <table>
  <thead>
 <tr>
-<th style="border-bottom:hidden" colspan="1"></th>
-<th style="border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="4"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Posts</div></th>
-<th style="border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="4"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Patients (last post)</div></th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="4"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Posts</div></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="4"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Patients (last post)</div></th>
 </tr>
   <tr>
    <th style="text-align:left;"> Variables </th>
@@ -2325,13 +2325,13 @@ Note that posts/patients have different follow-up times, that means that outcome
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_hosphf = Yes </td>
-   <td style="text-align:left;"> 62549 (40) </td>
+   <td style="text-align:left;"> 62556 (40) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 26193 ( 3) </td>
+   <td style="text-align:left;"> 26199 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 25733 (28) </td>
+   <td style="text-align:left;"> 25739 (28) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 26193 ( 3) </td>
+   <td style="text-align:left;"> 26199 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2340,7 +2340,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 1313 [591, 2467] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 483 [126, 1362] </td>
+   <td style="text-align:left;"> 483 [126, 1361] </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 1313 [591, 2467] </td>
    <td style="text-align:left;"> 0.0 </td>
@@ -2349,11 +2349,11 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> sos_out_hospany = Yes </td>
    <td style="text-align:left;"> 120283 (77) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 415506 (54) </td>
+   <td style="text-align:left;"> 415505 (54) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 64820 (72) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 415506 (54) </td>
+   <td style="text-align:left;"> 415505 (54) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2393,11 +2393,11 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> sos_out_hospnoncv = Yes </td>
    <td style="text-align:left;"> 83498 (53) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 304870 (40) </td>
+   <td style="text-align:left;"> 304868 (40) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 44566 (49) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 304870 (40) </td>
+   <td style="text-align:left;"> 304868 (40) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2580,11 +2580,11 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> sos_out_hospcancer = Yes </td>
    <td style="text-align:left;"> 10392 ( 7) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 63510 ( 8) </td>
+   <td style="text-align:left;"> 63509 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 6060 ( 7) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 63510 ( 8) </td>
+   <td style="text-align:left;"> 63509 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2602,11 +2602,11 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> sos_out_hospbleed = Yes </td>
    <td style="text-align:left;"> 23801 (15) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 63559 ( 8) </td>
+   <td style="text-align:left;"> 63558 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 12274 (14) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 63559 ( 8) </td>
+   <td style="text-align:left;"> 63558 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2734,11 +2734,11 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> sos_out_death = Yes </td>
    <td style="text-align:left;"> 81325 (52) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 185337 (24) </td>
+   <td style="text-align:left;"> 185334 (24) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 47826 (53) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 185337 (24) </td>
+   <td style="text-align:left;"> 185334 (24) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2756,22 +2756,22 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> sos_out_deathcv = Yes </td>
    <td style="text-align:left;"> 51263 (33) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 62678 ( 8) </td>
+   <td style="text-align:left;"> 62677 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 29272 (32) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 62678 ( 8) </td>
+   <td style="text-align:left;"> 62677 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_deathnoncv = Yes </td>
    <td style="text-align:left;"> 30062 (19) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 122659 (16) </td>
+   <td style="text-align:left;"> 122657 (16) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 18554 (21) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 122659 (16) </td>
+   <td style="text-align:left;"> 122657 (16) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>

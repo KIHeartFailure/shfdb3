@@ -40,3 +40,7 @@ weight: 20
 ### SHFDB 3.1.4
 
 - Corrected so date of migration <= 2018-12-31 (effected end follow-up for 45 cases).
+
+### SHFDB 3.1.5
+
+- Corrected ICD-10 code I425 for HF (effected sos_out_hosphf for 7 cases, sos_outtime_hosphf for 23 cases and sos_durationhf for 20 cases).

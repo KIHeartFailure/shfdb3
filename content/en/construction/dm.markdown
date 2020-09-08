@@ -284,7 +284,7 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_hosphf </td>
-   <td style="text-align:left;"> ICD:I110, I130, I132, I255, I420, I423, 1425, I426, I427, I428, I429, I43, I50, J81, K761, R57 </td>
+   <td style="text-align:left;"> ICD:I110, I130, I132, I255, I420, I423, I425, I426, I427, I428, I429, I43, I50, J81, K761, R57 </td>
    <td style="text-align:left;"> NPR (in) </td>
    <td style="text-align:left;"> HDIA </td>
    <td style="text-align:left;"> 1- </td>

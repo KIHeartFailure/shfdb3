@@ -13,7 +13,7 @@ SwedeHF is a health quality and research registry that started in 2000 and becam
 
 Up until April 2017 the only inclusion criterion was clinician-judged Heart Failure (HF). From April 2017 the inclusion criteria are ICD-10: I50.0, I50.1, I50.9, I42.0, I42.6, I42.7, I25.5, I11.0, I13.0, I13.2. 
 
-The new version of SwedeHF also implied other differences, mainly how data is collected. Previously there were no restrictions of what visits could be registered. In the new SwedeHF an index visits (the first time a patient is registered into SwedHF) is registered and thereafter a follow-up visit within 6 months and thereafter yearly follow-ups. The yearly follow-ups can be either out-patient visits, telephone contact or survey. Only the first visit can be a hospitalization, this means that the proportion of hospitalized patients have decreased since April 2017. 
+The new version of SwedeHF also entailed other differences, mainly how data is collected. Previously there were no restrictions of what visits could be registered. In the new SwedeHF an index visits (the first time a patient is registered into SwedHF) is registered and thereafter a follow-up visit within 6 months and thereafter yearly follow-ups. The yearly follow-ups can be either out-patient visits, telephone contact or survey. Only the first visit can be a hospitalization, this means that the proportion of hospitalized patients have decreased since April 2017. 
 
 For more information, see https://www.ucr.uu.se/rikssvikt-en/ and https://pubmed.ncbi.nlm.nih.gov/30092697/. 
 
@@ -63,8 +63,8 @@ For more information, see https://www.socialstyrelsen.se/statistik-och-data/regi
 
 No information from the Prescribed Drug Register is included in the base version of SHFDB3 but information from the register can be added upon request. 
 
-### VAL
+### Primary care data from Region Stockholm
 
-VAL is managed by Region Stockholm and contains information on healthcare from providers that have an agreement with Region Stockholm. For more information, see www.gups.sll.se/val/Valhandbok.docx. 
+VAL/KON is managed by Region Stockholm and contains information on healthcare from providers that have an agreement with Region Stockholm. For more information, see www.gups.sll.se/val/Valhandbok.docx. 
 
-No information from VAL is included in the base version of SHFDB3 but information on certain diagnosis in primary care are available and can be added upon request.
+No information from VAL/KON is included in the base version of SHFDB3 but information on certain diagnosis in primary care are available and can be added upon request.

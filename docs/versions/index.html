@@ -1620,6 +1620,11 @@ if (!doNotTrack) {
 <ul>
 <li>Corrected ICD-10 code I425 for HF (effected sos_out_hosphf for 7 cases, sos_outtime_hosphf for 23 cases and sos_durationhf for 20 cases).</li>
 </ul>
+<h3 id="shfdb-316">SHFDB 3.1.6</h3>
+<ul>
+<li>Changed sos_durationhf to be counted from date of discharge (instead of admittance) for in-patients. Caution should still be taken when looking at short durations.</li>
+<li>Changed censoring so controls will be censored day before date of HF (previously same day). This will fix that controls in some cases have HF outcome (at same day as censoring).</li>
+</ul>
 
   </article>
 </div>
@@ -1662,6 +1667,7 @@ if (!doNotTrack) {
         <li><a href="#shfdb-313">SHFDB 3.1.3</a></li>
         <li><a href="#shfdb-314">SHFDB 3.1.4</a></li>
         <li><a href="#shfdb-315">SHFDB 3.1.5</a></li>
+        <li><a href="#shfdb-316">SHFDB 3.1.6</a></li>
       </ul>
     </li>
   </ul>

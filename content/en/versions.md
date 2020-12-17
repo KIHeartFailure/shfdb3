@@ -44,3 +44,8 @@ weight: 20
 ### SHFDB 3.1.5
 
 - Corrected ICD-10 code I425 for HF (effected sos_out_hosphf for 7 cases, sos_outtime_hosphf for 23 cases and sos_durationhf for 20 cases).
+
+### SHFDB 3.1.6
+
+- Changed sos_durationhf to be counted from date of discharge (instead of admittance) for in-patients. Caution should still be taken when looking at short durations. 
+- Changed censoring so controls will be censored day before date of HF (previously same day). This will fix that controls in some cases have HF outcome (at same day as censoring). 

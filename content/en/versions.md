@@ -49,3 +49,7 @@ weight: 20
 
 - Changed sos_durationhf to be counted from date of discharge (instead of admittance) for in-patients. Caution should still be taken when looking at short durations. 
 - Changed censoring so controls will be censored day before date of HF (previously same day). This will fix that controls in some cases have HF outcome (at same day as censoring). 
+
+### SHFDB 3.1.7
+
+- Added shf_centretype.

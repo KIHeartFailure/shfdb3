@@ -13,7 +13,7 @@ output:
 
 ### Descriptive Statistics for variables in SHFDB3
 
-Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
+Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table. 
 
 <table>
  <thead>
@@ -295,6 +295,17 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 50462 (56) </td>
+   <td style="text-align:left;"> 0.0 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> shf_centretype = Primary care </td>
+   <td style="text-align:left;"> 19515 (12) </td>
+   <td style="text-align:left;"> 0.0 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 8725 (10) </td>
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>

@@ -27,7 +27,7 @@ load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/dm/data/rsdata_for
 
 ### Descriptive Statistics for variables in SHFDB3
 
-Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
+Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table. 
 
 ```{r tab}
 tabvars <- names(rsdata)[stringr::str_starts(names(rsdata), "LopNr|LopNrcase|casecontrol|sos_deathcause|scb_region", negate = TRUE)]

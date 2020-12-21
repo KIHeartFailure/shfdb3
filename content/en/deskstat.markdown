@@ -13,7 +13,7 @@ output:
 
 ### Descriptive Statistics for variables in SHFDB3
 
-Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table. 
+Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
 
 <table>
  <thead>
@@ -301,12 +301,12 @@ Note that posts/patients have different follow-up times, that means that outcome
   </tr>
   <tr>
    <td style="text-align:left;"> shf_centretype = Primary care </td>
-   <td style="text-align:left;"> 19515 (12) </td>
-   <td style="text-align:left;"> 0.0 </td>
+   <td style="text-align:left;"> 8261 ( 6) </td>
+   <td style="text-align:left;"> 8.3 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 8725 (10) </td>
-   <td style="text-align:left;"> 0.0 </td>
+   <td style="text-align:left;"> 2235 ( 3) </td>
+   <td style="text-align:left;"> 8.3 </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>
@@ -630,7 +630,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> shf_ntpropbnp </td>
+   <td style="text-align:left;"> shf_ntprobnp </td>
    <td style="text-align:left;"> 2260 [940, 5116] </td>
    <td style="text-align:left;"> 50.9 </td>
    <td style="text-align:left;">  </td>
@@ -2160,13 +2160,13 @@ Note that posts/patients have different follow-up times, that means that outcome
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_stroketia = Yes </td>
-   <td style="text-align:left;"> 30307 (19) </td>
+   <td style="text-align:left;"> 27507 (18) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 94296 (12) </td>
+   <td style="text-align:left;"> 83808 (11) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 18213 (20) </td>
+   <td style="text-align:left;"> 16562 (18) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 94296 (12) </td>
+   <td style="text-align:left;"> 83808 (11) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>

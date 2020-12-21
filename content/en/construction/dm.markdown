@@ -178,13 +178,6 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
    <td style="text-align:left;"> -5yrs-0 </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> sos_com_stroketia </td>
-   <td style="text-align:left;"> ICD:430-4, 438, I60-4, I690-4, G45 </td>
-   <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -0 </td>
-  </tr>
-  <tr>
    <td style="text-align:left;"> sos_com_valvular </td>
    <td style="text-align:left;"> ICD:I05-8, I34-9, Q22, Q230-3, Z952-4 </td>
    <td style="text-align:left;"> NPR (in+out) </td>

@@ -27,7 +27,7 @@ load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/dm/data/rsdata_for
 
 ### Index date
 
-Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case.
+Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case. 
 
 ### Inclusion/exclusion criteria
 

@@ -55,3 +55,7 @@ weight: 20
 - Added shf_centretype.
 - Changed name from shf_ntpropbnp to shf_ntprobnp.
 - Changed sos_com_stroketia (previously tia was without time limit in combined variable).
+
+### SHFDB 3.1.8
+
+- Corrected sos_out_hospnoncv. 

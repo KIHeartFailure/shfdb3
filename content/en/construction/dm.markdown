@@ -13,7 +13,7 @@ output:
 
 ### Index date
 
-Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case.
+Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case. 
 
 ### Inclusion/exclusion criteria
 
@@ -298,7 +298,7 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_hospnoncv </td>
-   <td style="text-align:left;"> ICD:A-F, G (excl. 45), H, J (excl. 81), K (excl. 761), L-Q, R (excl. 57), S-Z </td>
+   <td style="text-align:left;"> ICD:Not I, J81, K761, G45, R57 </td>
    <td style="text-align:left;"> NPR (in) </td>
    <td style="text-align:left;"> HDIA </td>
    <td style="text-align:left;"> 1- </td>

@@ -11,7 +11,7 @@ output:
 
 
 
-### Descriptive Statistics for variables in SHFDB3
+### Descriptive Statistics for variables in SHFDB3 
 
 Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
 
@@ -2402,24 +2402,24 @@ Note that posts/patients have different follow-up times, that means that outcome
   </tr>
   <tr>
    <td style="text-align:left;"> sos_out_hospnoncv = Yes </td>
-   <td style="text-align:left;"> 83498 (53) </td>
+   <td style="text-align:left;"> 94322 (60) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 292163 (38) </td>
+   <td style="text-align:left;"> 340064 (44) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 44566 (49) </td>
+   <td style="text-align:left;"> 50581 (56) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 292163 (38) </td>
+   <td style="text-align:left;"> 340064 (44) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_outtime_hospnoncv </td>
-   <td style="text-align:left;"> 451 [143, 1084] </td>
+   <td style="text-align:left;"> 375 [116, 936] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 882 [361, 1817] </td>
+   <td style="text-align:left;"> 794 [319, 1678] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 342 [102, 930] </td>
+   <td style="text-align:left;"> 291 [85, 783] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 882 [361, 1817] </td>
+   <td style="text-align:left;"> 794 [319, 1678] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>

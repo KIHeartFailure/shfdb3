@@ -59,3 +59,9 @@ weight: 20
 ### SHFDB 3.1.8
 
 - Corrected sos_out_hospnoncv. 
+
+### SHFDB 3.2.0
+
+- Added follow-up data until 2019-12-31 (note: this will also change data for prev years (2018) since SoS data extraction is by date of discharge and comorbs/outcomes are calculated by date of admission/visit).
+- Added variable censdtm (date of death/emigratation/2019-12-31 or (for controls date of HF diagnosis).
+- Modified Charlson comorbidity index according to https://www.dovepress.com/articles.php?article_id=61144

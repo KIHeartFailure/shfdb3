@@ -27,7 +27,7 @@ load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/dm/data/rsdata_for
 
 ### Index date
 
-Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case. 
+Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case.
 
 ### Inclusion/exclusion criteria
 
@@ -43,9 +43,9 @@ SwedeHF started in 2000. In April 2017 a new version of the register was launche
 
 ### Follow-up
 
-The follow-up period is defined as time from index date to emigration, death or end of follow-up, 2018-12-31, whichever came first. 
+The follow-up period is defined as time from index date to emigration, death or end of follow-up, 2019-12-31, whichever came first. 
 
-For the controls the follow-up period is defined as time from the matched cases index date to heart failure diagnosis (either in NPR or SwedeHF), emigration, death or end of follow-up, 2018-12-31, whichever came first. 
+For the controls the follow-up period is defined as time from the matched cases index date to heart failure diagnosis (either in NPR or SwedeHF), emigration, death or end of follow-up, 2019-12-31, whichever came first. 
 
 ### Socioeconomic variables from Statistics Sweden
 
@@ -80,9 +80,11 @@ comoutmeta <- comoutmeta %>%
 kable(comoutmeta)
 ```
 
-#### Charlson comorbidity index (https://pubmed.ncbi.nlm.nih.gov/3558716/)
+#### Charlson comorbidity index
 
-The ICD-10 codes used are not necessarily the same as in the other comorbidities and outcomes but directly from https://pubmed.ncbi.nlm.nih.gov/16224307/. Adaptations were made for the Swedish ICD-9 version. 
+The ICD-10 codes used are not necessarily the same as in the other comorbidities and outcomes but 
+from https://www.dovepress.com/articles.php?article_id=61144 (with few exceptions 
+were the ICD codes are not available in the data extraction from SoS). 
 
 ```{r cci}
 ccimeta <- ccimeta %>%

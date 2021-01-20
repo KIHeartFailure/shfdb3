@@ -13,7 +13,7 @@ output:
 
 ### Index date
 
-Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case. 
+Index date is defined as the registered date of discharge for in-patients and date of admission for out-patients in SwedeHF. The controls receive the same index date as their matched case.
 
 ### Inclusion/exclusion criteria
 
@@ -62,9 +62,9 @@ SwedeHF started in 2000. In April 2017 a new version of the register was launche
 
 ### Follow-up
 
-The follow-up period is defined as time from index date to emigration, death or end of follow-up, 2018-12-31, whichever came first. 
+The follow-up period is defined as time from index date to emigration, death or end of follow-up, 2019-12-31, whichever came first. 
 
-For the controls the follow-up period is defined as time from the matched cases index date to heart failure diagnosis (either in NPR or SwedeHF), emigration, death or end of follow-up, 2018-12-31, whichever came first. 
+For the controls the follow-up period is defined as time from the matched cases index date to heart failure diagnosis (either in NPR or SwedeHF), emigration, death or end of follow-up, 2019-12-31, whichever came first. 
 
 ### Socioeconomic variables from Statistics Sweden
 
@@ -432,9 +432,11 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
 </tbody>
 </table>
 
-#### Charlson comorbidity index (https://pubmed.ncbi.nlm.nih.gov/3558716/)
+#### Charlson comorbidity index
 
-The ICD-10 codes used are not necessarily the same as in the other comorbidities and outcomes but directly from https://pubmed.ncbi.nlm.nih.gov/16224307/. Adaptations were made for the Swedish ICD-9 version. 
+The ICD-10 codes used are not necessarily the same as in the other comorbidities and outcomes but 
+from https://www.dovepress.com/articles.php?article_id=61144 (with few exceptions 
+were the ICD codes are not available in the data extraction from SoS). 
 
 <table>
  <thead>
@@ -456,112 +458,126 @@ The ICD-10 codes used are not necessarily the same as in the other comorbidities
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_chf </td>
-   <td style="text-align:left;"> ICD:425E-H, 425W, 425X, 428, I099, I110, I130, I132, I255, I420, I425-9, I43, I50, P290 </td>
+   <td style="text-align:left;"> ICD:402A, 402B, 402X, 404A, 404B, 404X, 425E, 425F, 425H, 425W, 425X, 428, I110, I130, I132, I255, I420, I426-9, I43, I50 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_pvd </td>
-   <td style="text-align:left;"> ICD:093A, 437D, 440, 441, 443B, 443W, 443X, 447B, 557B, 557X, V43E, I70, I71, I731, I738, I739, I771, I790, I1792, K551, K558, K559, Z958, Z959 </td>
+   <td style="text-align:left;"> ICD:440, 441, 443B, 443X, 447B, 557B, 557X, I70, I71, I731, I738, I739, I771, I790, I792, K558, K559 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_cd </td>
-   <td style="text-align:left;"> ICD:430-8, G45, G46, H340, I60-9 </td>
-   <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -10yrs-0 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sos_com_cci_dementia </td>
-   <td style="text-align:left;"> ICD:290, 294B, 331C, F00-3, F051, G30, G311 </td>
+   <td style="text-align:left;"> ICD:430-8, G45, I60-4, I67, I69 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_copd </td>
-   <td style="text-align:left;"> ICD:416W, 416X, 490-6, 500-5, 506E, 508B, 508W, I278, I279, J40-7, J60-7, J684, J701, J703 </td>
+   <td style="text-align:left;"> ICD:491, 492, 496, J43-4 </td>
+   <td style="text-align:left;"> NPR (in+out) </td>
+   <td style="text-align:left;"> All DIA </td>
+   <td style="text-align:left;"> -10yrs-0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos_com_cci_copdother </td>
+   <td style="text-align:left;"> ICD:490, 493-5, 501-5, 506E, 508B, 508W, J41, J42, J45-7, J60-9, J70 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_rheumatic </td>
-   <td style="text-align:left;"> ICD:446F, 710A-E, 714A-C, 714W, 725, M05, M06, M315, M32-4, M351, M353, M360 </td>
+   <td style="text-align:left;"> ICD:446, 710A-E, 714A, 714B, 714C, 714W, M05, M06, M123, M070-3, M08, M13, M30, M313-6, M32-4, M350, M351, M353, M45, M46 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> sos_com_cci_pud </td>
-   <td style="text-align:left;"> ICD:531-4, K25-8 </td>
-   <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -10yrs-0 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sos_com_cci_livermild </td>
-   <td style="text-align:left;"> ICD:070C-G, 070X, 570, 571, 573D, 573E, 573W, 573X, V42H, B18, K700-3, K709, K713-5, K717, K73, K74, K760, K762-4, K768, K769, Z944 </td>
-   <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -10yrs-0 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sos_com_cci_diabetes </td>
-   <td style="text-align:left;"> ICD:250A-C, 250H, 250X, E100, E101, E106, E108, E109, E110, E111, E116, E118, E119, E120, E121, E126, E128, E129, E130, E131, E136, E138, E139, E140, E141, E146, E148, E149 </td>
-   <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> All DIA </td>
-   <td style="text-align:left;"> -10yrs-0 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> sos_com_cci_diabetescompliation </td>
-   <td style="text-align:left;"> ICD:250D-G, E102-5, E107, E112-5, E117, E122-5, E127, E132-5, E137, E142-5, E147 </td>
+   <td style="text-align:left;"> sos_com_cci_dementia </td>
+   <td style="text-align:left;"> ICD:290, 294B, 331C, F00-3, F051, G30, G311, G319 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_plegia </td>
-   <td style="text-align:left;"> ICD:334B, 342, 343, 344A-G, 344X, G041, G114, G801, G802, G81, G82, G830-4, G839 </td>
+   <td style="text-align:left;"> ICD:342, 343, 344A-F, G114, G80-2, G830-3, G838 </td>
+   <td style="text-align:left;"> NPR (in+out) </td>
+   <td style="text-align:left;"> All DIA </td>
+   <td style="text-align:left;"> -10yrs-0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos_com_cci_diabetes </td>
+   <td style="text-align:left;"> ICD:250A-C, E100, E101, E110, E111, E120, E121, E130, E131, E140, E141 </td>
+   <td style="text-align:left;"> NPR (in+out) </td>
+   <td style="text-align:left;"> All DIA </td>
+   <td style="text-align:left;"> -10yrs-0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos_com_cci_diabetescompliation </td>
+   <td style="text-align:left;"> ICD:250D-G, E102-5, E107, E112-7, E122-7, E132-7, E142-7 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_renal </td>
-   <td style="text-align:left;"> ICD:403A, 403B, 403X, 404A, 404B, 404X, 582, 583A-C, 583E, 583G, 583H, 585, 586, 588W, V42A, V45B, V56, I120, I131, N032-7, N052-7, N18, N19, N250, Z490-2, Z940, Z992 </td>
+   <td style="text-align:left;"> ICD:403A, 403B, 403X, 582, 583, 585, 586, 588A, V42A, V45B, V56, N032-7, N052-7, N11, N18, N19, N250, I120, I131, Q611-4, Z49, Z940, Z992 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> sos_com_cci_malignancy </td>
-   <td style="text-align:left;"> ICD:14-6, 170-5, 179, 18, 190-5, 200-8, 238G, C0-1, C20-6, C30-4, C37-9, C40, C41, C43, C45-9, C50-8, C6, C70-6, C81-5, C88, C90-7 </td>
+   <td style="text-align:left;"> sos_com_cci_livermild </td>
+   <td style="text-align:left;"> ICD:070C-G, 070X, 571C, 571E, 571F, 573D, 573E, 573W, 573X, B18, K709, K703, K73, K746, K703, K754 </td>
+   <td style="text-align:left;"> NPR (in+out) </td>
+   <td style="text-align:left;"> All DIA </td>
+   <td style="text-align:left;"> -10yrs-0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos_com_cci_liverspec </td>
+   <td style="text-align:left;"> ICD:789F </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_livermodsev </td>
-   <td style="text-align:left;"> ICD:456A-C, 572C-E, 572W, I850, I859, I864, I982, K704, K711, K721, K729, K765, K766, K767 </td>
+   <td style="text-align:left;"> ICD:456A-C, 572C-E, I850, I859, I982, I983 </td>
+   <td style="text-align:left;"> NPR (in+out) </td>
+   <td style="text-align:left;"> All DIA </td>
+   <td style="text-align:left;"> -10yrs-0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos_com_cci_pud </td>
+   <td style="text-align:left;"> ICD:531, 532, 534, K25-8 </td>
+   <td style="text-align:left;"> NPR (in+out) </td>
+   <td style="text-align:left;"> All DIA </td>
+   <td style="text-align:left;"> -10yrs-0 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos_com_cci_malignancy </td>
+   <td style="text-align:left;"> ICD:14-9, 200-8, C0-7, C80-6, C88-9, C90-7 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_metastatictumor </td>
-   <td style="text-align:left;"> ICD:196-9, C77-9, C80 </td>
+   <td style="text-align:left;"> ICD:196-8, 199A, 199B, C77-9, C80 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cci_hiv </td>
-   <td style="text-align:left;"> ICD:B20-2, B24 </td>
+   <td style="text-align:left;"> ICD:B20-4, F024, Z219, Z711 </td>
    <td style="text-align:left;"> NPR (in+out) </td>
    <td style="text-align:left;"> All DIA </td>
    <td style="text-align:left;"> -10yrs-0 </td>

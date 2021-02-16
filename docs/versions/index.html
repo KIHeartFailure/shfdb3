@@ -1638,8 +1638,15 @@ if (!doNotTrack) {
 <h3 id="shfdb-320">SHFDB 3.2.0</h3>
 <ul>
 <li>Added follow-up data until 2019-12-31 (note: this will also change data for prev years (2018) since SoS data extraction is by date of discharge and comorbs/outcomes are calculated by date of admission/visit).</li>
-<li>Added variable censdtm (date of death/emigratation/2019-12-31 or (for controls date of HF diagnosis).</li>
+<li>Added variable censdtm (date of death/emigration/2019-12-31 or (for controls date of HF diagnosis).</li>
 <li>Modified Charlson comorbidity index according to <a href="https://www.dovepress.com/articles.php?article_id=61144">https://www.dovepress.com/articles.php?article_id=61144</a></li>
+</ul>
+<h3 id="shfdb-321">SHFDB 3.2.1</h3>
+<ul>
+<li>Added sos_prevhosphf (time since last HF hospitalization).</li>
+<li>Modified shf_weight, shf_bmi, shf_bpsys, shf_bpdia, shf_map, shf_heartrate, <br />
+shf_hb, shf_potassium, shf_sodium, shf_creatinine, shf_gfrckdepi, shf_ntprobnp, <br />
+shf_bnp so the LAST value is selected (_24H). This is applicable to in-patient registrations after April 2017.</li>
 </ul>
 
   </article>
@@ -1687,6 +1694,7 @@ if (!doNotTrack) {
         <li><a href="#shfdb-317">SHFDB 3.1.7</a></li>
         <li><a href="#shfdb-318">SHFDB 3.1.8</a></li>
         <li><a href="#shfdb-320">SHFDB 3.2.0</a></li>
+        <li><a href="#shfdb-321">SHFDB 3.2.1</a></li>
       </ul>
     </li>
   </ul>

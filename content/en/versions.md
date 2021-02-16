@@ -63,5 +63,12 @@ weight: 20
 ### SHFDB 3.2.0
 
 - Added follow-up data until 2019-12-31 (note: this will also change data for prev years (2018) since SoS data extraction is by date of discharge and comorbs/outcomes are calculated by date of admission/visit).
-- Added variable censdtm (date of death/emigratation/2019-12-31 or (for controls date of HF diagnosis).
+- Added variable censdtm (date of death/emigration/2019-12-31 or (for controls date of HF diagnosis).
 - Modified Charlson comorbidity index according to https://www.dovepress.com/articles.php?article_id=61144
+
+### SHFDB 3.2.1
+
+- Added sos_prevhosphf (time since last HF hospitalization).
+- Modified shf_weight, shf_bmi, shf_bpsys, shf_bpdia, shf_map, shf_heartrate, 
+shf_hb, shf_potassium, shf_sodium, shf_creatinine, shf_gfrckdepi, shf_ntprobnp, 
+shf_bnp so the LAST value is selected (_24H). This is applicable to in-patient registrations after April 2017. 

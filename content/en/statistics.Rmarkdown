@@ -1,5 +1,5 @@
 ---
-title: 'DescStat'
+title: 'Statistics'
 date: "2020-04-27"
 draft: false
 weight: 40
@@ -25,7 +25,7 @@ library(kableExtra)
 load(file = "C:/Users/Lina/STATISTIK/Projects/20200225_shfdb3/dm/data/rsdata_for_webb.RData")
 ```             
 
-### Descriptive Statistics for variables in SHFDB3
+### Statistics for variables in SHFDB3
 
 Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
 

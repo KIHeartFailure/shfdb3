@@ -17,9 +17,9 @@
   weight = 3
 
 [[main]]
-  identifier = "deskstat"
-  name = "DescStat"
-  url = "deskstat"
+  identifier = "statistics"
+  name = "Statistics"
+  url = "statistics"
   weight = 4
   
 [[main]]

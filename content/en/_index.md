@@ -29,6 +29,10 @@ footer:
           link: https://github.com/KIHeartFailure/shfdb3dm
         - title: Website
           link: https://github.com/KIHeartFailure/shfdb3
+    - title: Cite
+      links: 
+        - title: DOI 10.5281/zenodo.4544288
+          link: https://zenodo.org/record/4544289#.YCzQ_zKg-Uk
 sections:
   - bgcolor: "#870052"
     type: card

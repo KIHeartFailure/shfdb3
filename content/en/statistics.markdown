@@ -102,6 +102,17 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
+   <td style="text-align:left;"> shf_indexhosptime </td>
+   <td style="text-align:left;"> 5 [3, 8] </td>
+   <td style="text-align:left;"> 57.2 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 5 [3, 9] </td>
+   <td style="text-align:left;"> 55.8 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
    <td style="text-align:left;"> shf_indexyear </td>
    <td style="text-align:left;"> 2012 [2009, 2016] </td>
    <td style="text-align:left;"> 0.0 </td>

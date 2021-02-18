@@ -72,3 +72,7 @@ weight: 20
 - Modified shf_weight, shf_bmi, shf_bpsys, shf_bpdia, shf_map, shf_heartrate, 
 shf_hb, shf_potassium, shf_sodium, shf_creatinine, shf_gfrckdepi, shf_ntprobnp, 
 shf_bnp so the LAST value is selected (_24H). This is applicable to in-patient registrations after April 2017. 
+
+### SHFDB 3.2.2
+
+- Added shf_indexhosptime.

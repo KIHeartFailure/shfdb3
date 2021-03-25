@@ -251,7 +251,7 @@ Limitation: Out-patient visits in speciality (but not primary) care are covered 
    <td style="text-align:left;"> sos_com_cancer3y </td>
    <td style="text-align:left;"> ICD:C </td>
    <td style="text-align:left;"> NPR (in+out) </td>
-   <td style="text-align:left;"> All DIA </td>
+   <td style="text-align:left;"> HDIA </td>
    <td style="text-align:left;"> -3yrs-0 </td>
   </tr>
   <tr>

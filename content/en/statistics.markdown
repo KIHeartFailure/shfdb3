@@ -2303,13 +2303,13 @@ Note that posts/patients have different follow-up times, that means that outcome
   </tr>
   <tr>
    <td style="text-align:left;"> sos_com_cancer3y = Yes </td>
-   <td style="text-align:left;"> 22468 (14) </td>
+   <td style="text-align:left;"> 19393 (12) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 93743 (12) </td>
+   <td style="text-align:left;"> 85330 (11) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 13494 (15) </td>
+   <td style="text-align:left;"> 11617 (13) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 93743 (12) </td>
+   <td style="text-align:left;"> 85330 (11) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>

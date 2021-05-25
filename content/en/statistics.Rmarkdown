@@ -32,22 +32,18 @@ Note that posts/patients have different follow-up times, that means that outcome
 ```{r tab}
 tabvars <- names(rsdata)[stringr::str_starts(names(rsdata), "LopNr|LopNrcase|casecontrol|sos_deathcause|scb_region", negate = TRUE)]
 # tabvars <- names(rsdata)[stringr::str_starts(names(rsdata), "shf_sex|shf_age|shf_nyha|scb_")]
-tabca <- CreateTableOne(
+tabca <- print(CreateTableOne(
   data = rsdata %>% filter(casecontrol == "Case"),
-  vars = tabvars
-)
-tabco <- CreateTableOne(
-  data = rsdata %>% filter(casecontrol == "Control"),
-  vars = tabvars
-)
-tabca <- print(tabca,
+  vars = tabvars),
   varLabels = TRUE, missing = TRUE, printToggle = FALSE, test = FALSE,
   catDigits = 0, contDigits = 0,
   nonnormal = tabvars,
   explain = FALSE
 )
 tabca <- data.frame(vars = rownames(tabca), tabca)
-tabco <- print(tabco,
+tabco <- print(CreateTableOne(
+  data = rsdata %>% filter(casecontrol == "Control"),
+  vars = tabvars),
   varLabels = TRUE, missing = TRUE, printToggle = FALSE, test = FALSE,
   catDigits = 0, contDigits = 0,
   nonnormal = tabvars,
@@ -55,27 +51,28 @@ tabco <- print(tabco,
 )
 tabco <- data.frame(vars = rownames(tabco), tabco)
 rsdatau <- rsdata %>%
+  filter(casecontrol == "Case") %>%
   group_by(LopNr, casecontrol) %>%
   arrange(shf_indexdtm) %>%
   slice(n()) %>%
   ungroup()
+rsdataucon <- inner_join(rsdatau %>% select(LopNrcase, shf_indexdtm), 
+                        rsdata %>% filter(casecontrol == "Control"), 
+                        by = c("LopNrcase", "shf_indexdtm"))
+rsdatauboth <- bind_rows(rsdatau, rsdataucon)
 
-tabuca <- CreateTableOne(
-  data = rsdatau %>% filter(casecontrol == "Case"),
-  vars = tabvars
-)
-tabuca <- print(tabuca,
+tabuca <- print(CreateTableOne(
+  data = rsdatauboth %>% filter(casecontrol == "Case"),
+  vars = tabvars), 
   varLabels = TRUE, missing = TRUE, printToggle = FALSE, test = FALSE,
   catDigits = 0, contDigits = 0,
   nonnormal = tabvars,
   explain = FALSE
 )
 tabuca <- data.frame(vars = rownames(tabuca), tabuca)
-tabuco <- CreateTableOne(
-  data = rsdatau %>% filter(casecontrol == "Control"),
-  vars = tabvars
-)
-tabuco <- print(tabuco,
+tabuco <- print(CreateTableOne(
+  data = rsdatauboth %>% filter(casecontrol == "Control"),
+  vars = tabvars), 
   varLabels = TRUE, missing = TRUE, printToggle = FALSE, test = FALSE,
   catDigits = 0, contDigits = 0,
   nonnormal = tabvars,

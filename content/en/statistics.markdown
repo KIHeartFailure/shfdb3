@@ -43,7 +43,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 90383 </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 771047 </td>
+   <td style="text-align:left;"> 445700 </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -120,7 +120,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 2013 [2009, 2016] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 2012 [2009, 2016] </td>
+   <td style="text-align:left;"> 2013 [2009, 2016] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -263,7 +263,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 55360 (61) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 486826 (63) </td>
+   <td style="text-align:left;"> 270885 (61) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -274,7 +274,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 77 [68, 84] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 76 [67, 83] </td>
+   <td style="text-align:left;"> 77 [68, 84] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -450,7 +450,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 7273 (17) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 21086 ( 3) </td>
+   <td style="text-align:left;"> 11994 ( 3) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1847,7 +1847,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 2949 ( 3) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 21086 ( 3) </td>
+   <td style="text-align:left;"> 11994 ( 3) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1869,7 +1869,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 77856 (86) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 675944 (88) </td>
+   <td style="text-align:left;"> 392103 (88) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1880,7 +1880,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 9878 (11) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 73954 (10) </td>
+   <td style="text-align:left;"> 41561 ( 9) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1891,7 +1891,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 2637 ( 3) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 21086 ( 3) </td>
+   <td style="text-align:left;"> 11994 ( 3) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1902,7 +1902,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 75525 (84) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 653525 (85) </td>
+   <td style="text-align:left;"> 378054 (85) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -1913,7 +1913,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.1 </td>
    <td style="text-align:left;"> 49034 (54) </td>
    <td style="text-align:left;"> 0.2 </td>
-   <td style="text-align:left;"> 367055 (48) </td>
+   <td style="text-align:left;"> 219735 (49) </td>
    <td style="text-align:left;"> 0.1 </td>
   </tr>
   <tr>
@@ -1924,7 +1924,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.1 </td>
    <td style="text-align:left;"> 45831 (51) </td>
    <td style="text-align:left;"> 0.2 </td>
-   <td style="text-align:left;"> 341118 (44) </td>
+   <td style="text-align:left;"> 205117 (46) </td>
    <td style="text-align:left;"> 0.1 </td>
   </tr>
   <tr>
@@ -1936,7 +1936,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 2.4 </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 2.0 </td>
+   <td style="text-align:left;"> 2.1 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Compulsory school </td>
@@ -1946,7 +1946,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 41355 (47) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 311945 (41) </td>
+   <td style="text-align:left;"> 183339 (42) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1957,7 +1957,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 33115 (38) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 280181 (37) </td>
+   <td style="text-align:left;"> 160318 (37) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1968,7 +1968,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 13706 (16) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 163573 (22) </td>
+   <td style="text-align:left;"> 92608 (21) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -1979,7 +1979,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.1 </td>
    <td style="text-align:left;"> 1459 [1185, 1910] </td>
    <td style="text-align:left;"> 0.2 </td>
-   <td style="text-align:left;"> 1547 [1219, 2270] </td>
+   <td style="text-align:left;"> 1533 [1212, 2223] </td>
    <td style="text-align:left;"> 0.1 </td>
   </tr>
   <tr>
@@ -2001,7 +2001,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 33770 (37) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 249498 (32) </td>
+   <td style="text-align:left;"> 150018 (34) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -2012,7 +2012,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 33238 (37) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 249362 (32) </td>
+   <td style="text-align:left;"> 146439 (33) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -2023,7 +2023,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 23226 (26) </td>
    <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> 271419 (35) </td>
+   <td style="text-align:left;"> 148837 (33) </td>
    <td style="text-align:left;">  </td>
   </tr>
   <tr>
@@ -2056,7 +2056,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 51704 (57) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 173020 (22) </td>
+   <td style="text-align:left;"> 103349 (23) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2067,7 +2067,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 23562 (26) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 65739 ( 9) </td>
+   <td style="text-align:left;"> 38168 ( 9) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2078,7 +2078,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 48760 (54) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 115326 (15) </td>
+   <td style="text-align:left;"> 67995 (15) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2089,7 +2089,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 35800 (40) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 62572 ( 8) </td>
+   <td style="text-align:left;"> 36612 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2100,7 +2100,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 19054 (21) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 38764 ( 5) </td>
+   <td style="text-align:left;"> 22797 ( 5) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2111,7 +2111,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 16192 (18) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 32845 ( 4) </td>
+   <td style="text-align:left;"> 18920 ( 4) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2122,7 +2122,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 22321 (25) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 43180 ( 6) </td>
+   <td style="text-align:left;"> 24563 ( 6) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2144,7 +2144,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 8577 ( 9) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 22033 ( 3) </td>
+   <td style="text-align:left;"> 12866 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2155,7 +2155,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 49225 (54) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 61406 ( 8) </td>
+   <td style="text-align:left;"> 37050 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2166,7 +2166,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 14542 (16) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 71603 ( 9) </td>
+   <td style="text-align:left;"> 43270 (10) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2177,7 +2177,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 3312 ( 4) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 17751 ( 2) </td>
+   <td style="text-align:left;"> 10703 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2188,7 +2188,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 16562 (18) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 83808 (11) </td>
+   <td style="text-align:left;"> 50628 (11) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2199,7 +2199,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 18638 (21) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 18091 ( 2) </td>
+   <td style="text-align:left;"> 10758 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2210,7 +2210,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 14252 (16) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 14173 ( 2) </td>
+   <td style="text-align:left;"> 8549 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2221,7 +2221,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 1865 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1158 ( 0) </td>
+   <td style="text-align:left;"> 691 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2232,7 +2232,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 2276 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 3877 ( 1) </td>
+   <td style="text-align:left;"> 2353 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2243,7 +2243,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 857 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1244 ( 0) </td>
+   <td style="text-align:left;"> 669 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2254,7 +2254,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 12985 (14) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 22849 ( 3) </td>
+   <td style="text-align:left;"> 13120 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2265,7 +2265,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 1938 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 4879 ( 1) </td>
+   <td style="text-align:left;"> 2739 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2276,7 +2276,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 3425 ( 4) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 10553 ( 1) </td>
+   <td style="text-align:left;"> 5596 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2287,7 +2287,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 2409 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 26053 ( 3) </td>
+   <td style="text-align:left;"> 16394 ( 4) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2298,7 +2298,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 3663 ( 4) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 17560 ( 2) </td>
+   <td style="text-align:left;"> 10127 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2309,7 +2309,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 11617 (13) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 85330 (11) </td>
+   <td style="text-align:left;"> 49473 (11) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2320,7 +2320,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 29257 (32) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 155859 (20) </td>
+   <td style="text-align:left;"> 90862 (20) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2331,7 +2331,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 2818 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 10405 ( 1) </td>
+   <td style="text-align:left;"> 5665 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2342,7 +2342,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 17810 (20) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 56707 ( 7) </td>
+   <td style="text-align:left;"> 34080 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2375,7 +2375,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 644 [202, 1510] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1518 [790, 2708] </td>
+   <td style="text-align:left;"> 1343 [672, 2518] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2386,7 +2386,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 70121 (78) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 423668 (55) </td>
+   <td style="text-align:left;"> 239495 (54) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2397,7 +2397,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 239 [56, 658] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 866 [395, 1712] </td>
+   <td style="text-align:left;"> 769 [381, 1551] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2408,7 +2408,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 47368 (52) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 148883 (19) </td>
+   <td style="text-align:left;"> 83539 (19) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2419,7 +2419,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 455 [113, 1071] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1305 [651, 2405] </td>
+   <td style="text-align:left;"> 1133 [579, 2220] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2430,7 +2430,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 55440 (61) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 373334 (48) </td>
+   <td style="text-align:left;"> 211138 (47) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2441,7 +2441,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 402 [108, 918] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 954 [438, 1842] </td>
+   <td style="text-align:left;"> 838 [413, 1690] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2452,7 +2452,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 7322 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 55963 ( 7) </td>
+   <td style="text-align:left;"> 31945 ( 7) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2463,7 +2463,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 810 [373, 1748] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1436 [740, 2602] </td>
+   <td style="text-align:left;"> 1270 [636, 2418] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2474,7 +2474,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 5508 ( 6) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 25938 ( 3) </td>
+   <td style="text-align:left;"> 14449 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2485,7 +2485,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 823 [378, 1786] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1483 [768, 2659] </td>
+   <td style="text-align:left;"> 1314 [657, 2475] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2496,7 +2496,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 10104 (11) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 38543 ( 5) </td>
+   <td style="text-align:left;"> 21260 ( 5) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2507,7 +2507,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 762 [324, 1681] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1454 [751, 2625] </td>
+   <td style="text-align:left;"> 1294 [647, 2442] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2518,7 +2518,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 1157 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 627 ( 0) </td>
+   <td style="text-align:left;"> 335 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2529,7 +2529,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 848 [391, 1825] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1517 [789, 2706] </td>
+   <td style="text-align:left;"> 1343 [672, 2517] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2540,7 +2540,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 859 [397, 1848] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1518 [790, 2708] </td>
+   <td style="text-align:left;"> 1343 [672, 2518] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2551,7 +2551,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 12603 (14) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 52178 ( 7) </td>
+   <td style="text-align:left;"> 29971 ( 7) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2562,7 +2562,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 778 [343, 1710] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1462 [753, 2643] </td>
+   <td style="text-align:left;"> 1296 [646, 2453] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2573,7 +2573,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 11883 (13) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 49399 ( 6) </td>
+   <td style="text-align:left;"> 28395 ( 6) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2584,7 +2584,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 785 [349, 1723] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1468 [755, 2647] </td>
+   <td style="text-align:left;"> 1300 [649, 2458] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2595,7 +2595,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 5250 ( 6) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 8584 ( 1) </td>
+   <td style="text-align:left;"> 4706 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2606,7 +2606,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 830 [379, 1799] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1511 [784, 2696] </td>
+   <td style="text-align:left;"> 1337 [669, 2511] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2617,7 +2617,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 6772 ( 7) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 68141 ( 9) </td>
+   <td style="text-align:left;"> 36823 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2628,7 +2628,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 827 [379, 1786] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1447 [742, 2616] </td>
+   <td style="text-align:left;"> 1287 [642, 2433] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2639,7 +2639,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 13754 (15) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 65500 ( 8) </td>
+   <td style="text-align:left;"> 37508 ( 8) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2650,7 +2650,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 764 [328, 1691] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1442 [740, 2615] </td>
+   <td style="text-align:left;"> 1275 [637, 2428] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2661,7 +2661,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 584 ( 1) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 509 ( 0) </td>
+   <td style="text-align:left;"> 305 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2672,7 +2672,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 854 [395, 1841] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1518 [789, 2707] </td>
+   <td style="text-align:left;"> 1343 [672, 2518] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2683,7 +2683,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 240 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1019 ( 0) </td>
+   <td style="text-align:left;"> 597 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2694,7 +2694,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 857 [397, 1846] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1517 [789, 2706] </td>
+   <td style="text-align:left;"> 1342 [672, 2517] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2705,7 +2705,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 2442 ( 3) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 14270 ( 2) </td>
+   <td style="text-align:left;"> 7947 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2716,7 +2716,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 837 [386, 1799] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1495 [775, 2674] </td>
+   <td style="text-align:left;"> 1322 [663, 2489] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2727,7 +2727,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 12341 (14) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 88849 (12) </td>
+   <td style="text-align:left;"> 52746 (12) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2738,7 +2738,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 774 [348, 1677] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1392 [705, 2540] </td>
+   <td style="text-align:left;"> 1210 [614, 2345] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2749,7 +2749,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 3417 ( 4) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 20743 ( 3) </td>
+   <td style="text-align:left;"> 10822 ( 2) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2760,7 +2760,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 818 [376, 1769] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1482 [769, 2653] </td>
+   <td style="text-align:left;"> 1314 [658, 2471] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2771,7 +2771,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 52233 (58) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 203615 (26) </td>
+   <td style="text-align:left;"> 122249 (27) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2782,7 +2782,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 859 [397, 1848] </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 1518 [790, 2708] </td>
+   <td style="text-align:left;"> 1343 [672, 2518] </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2793,7 +2793,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 31715 (35) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 67644 ( 9) </td>
+   <td style="text-align:left;"> 41844 ( 9) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2804,7 +2804,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 20518 (23) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 135971 (18) </td>
+   <td style="text-align:left;"> 80405 (18) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
   <tr>
@@ -2815,7 +2815,7 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;"> 0.0 </td>
    <td style="text-align:left;"> 57 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
-   <td style="text-align:left;"> 185 ( 0) </td>
+   <td style="text-align:left;"> 109 ( 0) </td>
    <td style="text-align:left;"> 0.0 </td>
   </tr>
 </tbody>

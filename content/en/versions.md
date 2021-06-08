@@ -80,3 +80,7 @@ shf_bnp so the LAST value is selected (_24H). This is applicable to in-patient r
 ### SHFDB 3.2.3
 
 - sos_com_cancer3y derived from diagnosis in main position (HDIA) only.
+
+### SHFDB 3.2.4
+
+- Added sos_location.

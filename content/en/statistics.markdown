@@ -13,7 +13,7 @@ output:
 
 ### Statistics for variables in SHFDB3
 
-Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
+Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table. 
 
 <table>
  <thead>
@@ -2045,6 +2045,50 @@ Note that posts/patients have different follow-up times, that means that outcome
    <td style="text-align:left;">  </td>
    <td style="text-align:left;"> 22 [0, 236] </td>
    <td style="text-align:left;"> 40.5 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> sos_location </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 0.0 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 0.0 </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> HF in-patient </td>
+   <td style="text-align:left;"> 45808 (29) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 25938 (29) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Other in-patient </td>
+   <td style="text-align:left;"> 22280 (14) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 14701 (16) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Out-patient </td>
+   <td style="text-align:left;"> 88456 (57) </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:left;"> 49744 (55) </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
    <td style="text-align:left;">  </td>
   </tr>

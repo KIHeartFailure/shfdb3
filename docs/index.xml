@@ -69,8 +69,9 @@ Inclusion/exclusion criteria Criteria N No of posts in SwedeHF 178038 
         <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
         
         <guid>/shfdb3/statistics/</guid>
-        <description>Statistics for variables in SHFDB3 Note that posts/patients have different follow-up times, that means that outcomes can NOT be interpreted directly from the table.
-PostsPatients (last post)Variables Case % missing Control % missing Case % missing Control % missing n 156544 771047 90383 445700 ncontrols 5 [5, 5] 0.</description>
+        <description>Statistics for variables in SHFDB3 Descriptive statistics over time can be found: https://swedehf.shinyapps.io/deskstat
+Note:
+ Posts/patients have different follow-up times, this means that outcomes can not be interpreted directly from the table. % missing is for cases (SwedeHF patients) only. Categorical variables are presented with n (%) and continuous variables with median [q1-q3], mean (sd).  PostsPatients (last post)Variables % missing Case Control % missing Case Control n 156544 771047 90383 445700 ncontrols 0.</description>
       </item>
       
       <item>

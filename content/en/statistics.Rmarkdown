@@ -52,7 +52,8 @@ tabfunc <- function(data) {
   varLabels = TRUE, missing = TRUE, printToggle = FALSE, test = FALSE,
   catDigits = 0, contDigits = 0,
   nonnormal = tabvars,
-  explain = FALSE
+  explain = FALSE, 
+  noSpaces = TRUE
   )
   tabmed <- data.frame(vars = rownames(tabmed), tabmed)
 
@@ -63,7 +64,8 @@ tabfunc <- function(data) {
   ),
   varLabels = TRUE, printToggle = FALSE, test = FALSE,
   catDigits = 0, contDigits = 0,
-  explain = FALSE
+  explain = FALSE, 
+  noSpaces = TRUE
   )
   tabmean <- data.frame(vars = rownames(tabmean), tabmean)
 
@@ -109,6 +111,8 @@ tabuboth <- full_join(tabucases, tabucontrols %>% select(-Missing), by = "vars")
 taball <- cbind(tabboth, tabuboth %>% select(-vars))
 colnames(taball) <- c("Variables", rep(c("% missing", "Case", "Control"), 2))
 
+taball$Variables <- gsub("   ", ".  ", taball$Variables)
+
 knitr::kable(taball) %>%
-  add_header_above(c(" " = 1, "Posts" = 3, "Patients (last post)" = 3))
+  add_header_above(c(" " = 1, "Posts" = 3, "Patients (last post)" = 3)) 
 ```

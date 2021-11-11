@@ -85,7 +85,7 @@ tabfunc <- function(data) {
 tabcases <- tabfunc(rsdata %>% filter(casecontrol == "Case"))
 
 ## controls
-tabcontrols <- tabfunc(rsdata %>% filter(casecontrol == "Control"))
+tabcontrols <- tabfunc(rsdata %>% filter(casecontrol == "Control")) 
 
 # Unique individuals
 rsdatau <- rsdata %>%

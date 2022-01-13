@@ -4,7 +4,9 @@ library(tidyr)
 load("../dm/data/rsdata_for_webb.RData")
 
 # create datasets for shinyapp
-varsfortab <- names(rsdata)[stringr::str_starts(names(rsdata), "LopNr|LopNrcase|casecontrol|sos_deathcause|scb_region", negate = TRUE)]
+varsfortab <- names(rsdata)[!names(rsdata) %in% c("LopNr", "LopNrcase", "casecontrol", "sos_deathcause", 
+                                                  "scb_region", "shf_centre", "shf_centreregion", 
+                                                  "censdtm", "shf_ferrocarboxymaltosisdate", "shf_indexdtm")]
 rsdata <- rsdata %>%
   mutate_if(is.factor, as.character) %>%
   filter(casecontrol == "Case")

@@ -88,3 +88,7 @@ shf_bnp so the LAST value is selected (_24H). This is applicable to in-patient r
 ### SHFDB 3.2.5
 
 - Changed shf_gfrckdepi according to CKD-EPI 2021 https://www.nejm.org/doi/full/10.1056/NEJMoa2102953.
+
+### SHFDB 3.2.6
+
+- Added shf_centre and shf_centreregion.

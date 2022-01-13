@@ -38,10 +38,7 @@ Note:
 
 ```{r tab}
 
-tabvars <- names(rsdata)[stringr::str_starts(names(rsdata),
-  "LopNr|LopNrcase|casecontrol|sos_deathcause|scb_region|shf_indexdtm|shf_ferrocarboxymaltosisdate|censdtm",
-  negate = TRUE
-)]
+tabvars <- names(rsdata)[!names(rsdata) %in% c("LopNr", "LopNrcase", "casecontrol", "sos_deathcause", "scb_region", "shf_centre", "shf_centreregion", "censdtm", "shf_indexdtm", "shf_ferrocarboxymaltosisdate")]
 
 tabfunc <- function(data) {
   # median

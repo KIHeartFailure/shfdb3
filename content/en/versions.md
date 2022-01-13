@@ -91,4 +91,4 @@ shf_bnp so the LAST value is selected (_24H). This is applicable to in-patient r
 
 ### SHFDB 3.2.6
 
-- Added shf_centre and shf_centreregion.
+- Added shf_centre and shf_centreregion. Changed scb_region to text from numeric. 

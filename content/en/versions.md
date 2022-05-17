@@ -92,3 +92,9 @@ shf_bnp so the LAST value is selected (_24H). This is applicable to in-patient r
 ### SHFDB 3.2.6
 
 - Added shf_centre and shf_centreregion. Changed scb_region to text from numeric. 
+
+### SHFDB 3.2.7
+
+- Added shf_loopdiureticsub, shf_qol, sos_out_counthosphf (number of HF hospitalisations) and shf_bmiimp (bmi calculated from height imputed with median within age and gender). 
+- Modified shf_height. If missing, it is imputed with the last shf_height for that individual. shf_bmi calculated from modified shf_height. 
+- Modified sos_prevhosphf so if sos_location=="HF in-patient" it is set to 0. 

@@ -13,7 +13,7 @@ output:
 
 ### Statistics for variables in SHFDB3
 
-Descriptive statistics over time can be found: https://swedehf.shinyapps.io/deskstat 
+Descriptive statistics over time can be found: https://swedehf.shinyapps.io/deskstat
 
 Note: 
 

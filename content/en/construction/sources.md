@@ -19,7 +19,7 @@ For more information, see https://www.ucr.uu.se/rikssvikt-en/ and https://pubmed
 
 A case is defined as a post registered in SwedeHF. Information on comorbidities, medications and other characteristics are collected here. 
 
-### Longitudinal database on socioeconomic factors (LISA) 
+### Longitudinal integrated database for health insurance and labour market studies (LISA) 
 
 The Longitudinal database on socioeconomic factors (LISA) is managed by Statistics Sweden (SCB). 
 
@@ -33,7 +33,7 @@ Register of the Total Population (Swedish: Registret över totalbefolkningen, RT
 
 Information on number of children, country of birth and immigration/emigration is received from here.
 
-### The Swedish Cancer Register 
+### The National Cancer Register 
 
 The Swedish Cancer Register (Swedish: Cancerregistret) is managed by The National Board of Health and Welfare (Socialstyrelsen). 
 
@@ -55,7 +55,7 @@ The Cause of Death Register (Swedish: Dödsorsaksregistret) is managed by The Na
 
 From the Cause of Death Register deaths (variables beginning with sos_out_death) were calculated. Additional casuses of death can be made available upon request. 
 
-### The Dispensed Drug Register 
+### The National Prescribed Drug Register
 
 The Dispensed Drug Register (Swedish: Läkemedelsregistret) is managed by The National Board of Health and Welfare (Socialstyrelsen) and from July 2005 includes all dispensed drugs. 
 
